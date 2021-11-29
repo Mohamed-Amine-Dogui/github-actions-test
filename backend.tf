@@ -1,3 +1,6 @@
+# the s3 bucket "momobucketbackend" was deployed in an other project or manually 
+# the dynamoDB table "momo-s3-State" was deployed in an other project or manually with a Primary Key of type LockID
+
 terraform {
   backend "s3" {
     bucket         = "momobucketbackend"
@@ -11,5 +14,3 @@ terraform {
 
 
 
-# the s3 bucket "momobucketbackend" was deployed in an other project or manually 
-# the dynamoDB table "momo-s3-State" was deployed in an other project or manually with a Primary Key of type LockID
