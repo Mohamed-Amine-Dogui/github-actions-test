@@ -14,8 +14,14 @@
 
 ### Generate a SSH public key
 
-ssh-keygen --> generate public key
-copie C:\Users\mdogui/.ssh --> content of id_rsa.pub in Github setting --> New SSH Key --> paste
+1 - Powershell --> ssh-keygen
+2 - just press enter until you get a key generated (no need to make any input)
+3 - Go to C:\Users\mdogui/.ssh --> Copie the content of id_rsa.pub
+4 - Go to the Browser --> Github
+5 - Setting --> SSH and GPC Keys --> New SSH Key
+6 - Paste the content of id_rsa.pub and give a name e.g. "my_laptop"
+
+---
 
 ### Start your project
 
