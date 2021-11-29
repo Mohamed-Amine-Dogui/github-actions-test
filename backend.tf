@@ -4,7 +4,7 @@ terraform {
     key            = "mystatefile.tfstate"
     region         = "eu-west-1"
     dynamodb_table = "momo-s3-State"
-    profile = "MyAWS"
+    profile        = "MyAWS"
   }
 }
 
