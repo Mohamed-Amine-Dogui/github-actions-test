@@ -14,12 +14,12 @@
 
 ### Generate a SSH public key
 
-1 - Powershell --> ssh-keygen
-2 - just press enter until you get a key generated (no need to make any input)
-3 - Go to C:\Users\mdogui/.ssh --> Copie the content of id_rsa.pub
-4 - Go to the Browser --> Github
-5 - Setting --> SSH and GPC Keys --> New SSH Key
-6 - Paste the content of id_rsa.pub and give a name e.g. "my_laptop"
+- 1 - Powershell --> ssh-keygen
+- 2 - just press enter until you get a key generated (no need to make any input)
+- 3 - Go to C:\Users\mdogui/.ssh --> Copie the content of id_rsa.pub
+- 4 - Go to the Browser --> Github
+- 5 - Setting --> SSH and GPC Keys --> New SSH Key
+- 6 - Paste the content of id_rsa.pub and give a name e.g. "my_laptop"
 
 ---
 
@@ -27,6 +27,6 @@
 
 git clone https://github.com/Mohamed-Amine-Dogui/github-actions-test.git
 
-1- git add -A : add All
-2- git commit -m "first commit"
-3- git push
+- 1- git add -A : add All
+- 2- git commit -m "first commit"
+- 3- git push
